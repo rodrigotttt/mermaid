@@ -1,0 +1,36 @@
+graph TD
+    A[Metodologías de Desarrollo de Software]
+    A --> B[Tradicionales]
+    A --> C[Ágiles]
+    
+    B --> D[Cascada]
+    B --> E[Espiral]
+    B --> F[Modelo V]
+    
+    C --> G[Scrum]
+    C --> H[Kanban]
+    C --> I[Extreme Programming XP]
+    C --> J[Lean]
+    
+    K[Características]
+    
+    B --> K
+    K --> L[Planificación detallada]
+    K --> M[Documentación exhaustiva]
+    K --> N[Fases secuenciales]
+    
+    C --> O[Características]
+    O --> P[Iterativo e incremental]
+    O --> Q[Adaptabilidad]
+    O --> R[Colaboración constante]
+    
+    S[Propósitos]
+    
+    B --> S
+    S --> T[Proyectos predecibles]
+    S --> U[Requisitos estables]
+    
+    C --> V[Propósitos]
+    V --> W[Respuesta al cambio]
+    V --> X[Entrega rápida]
+    V --> Y[Satisfacción del cliente]
